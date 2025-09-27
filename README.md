@@ -15,7 +15,7 @@ A full-stack application that extracts text from resumes and job descriptions, t
 ### Prerequisites
 
 - Python 3.8+
-- Node.js 16+
+- React 19.1+
 - Google Gemini API Key
 
 ### Backend Setup
@@ -51,7 +51,7 @@ A full-stack application that extracts text from resumes and job descriptions, t
    python main.py
    ```
 
-   The server will run on `http://localhost:8003`
+   The server will run on `http://localhost:8000`
 
 ### Frontend Setup
 
@@ -81,12 +81,8 @@ A full-stack application that extracts text from resumes and job descriptions, t
 
 ## API Endpoints
 
-- `GET /` - Welcome message
 - `GET /health` - Health check
 - `POST /extract-text` - Upload files and generate questions (main endpoint)
-- `POST /extract-text-only` - Upload files for text extraction only
-- `GET /test-api-key` - Test if Gemini API key is working
-- `GET /supported-file-types` - Get list of supported file formats
 
 ## Usage
 
